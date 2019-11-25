@@ -1,0 +1,3230 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://groundEarth.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ground.tscn" type="PackedScene" id=2]
+
+[node name="Game" type="Spatial"]
+
+[node name="20x20" type="Spatial" parent="."]
+editor/display_folded = true
+
+[node name="groundEarth" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 6.50911 )
+
+[node name="groundEarth156" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -3.49089 )
+
+[node name="groundEarth243" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -3.49089 )
+
+[node name="groundEarth352" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 6.50911 )
+
+[node name="groundEarth48" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 6.50911 )
+
+[node name="groundEarth173" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -3.49089 )
+
+[node name="groundEarth264" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -3.49089 )
+
+[node name="groundEarth304" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 6.50911 )
+
+[node name="groundEarth74" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 1.50911 )
+
+[node name="groundEarth149" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -8.49089 )
+
+[node name="groundEarth241" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -8.49089 )
+
+[node name="groundEarth378" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 1.50911 )
+
+[node name="groundEarth88" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 1.50911 )
+
+[node name="groundEarth189" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -8.49089 )
+
+[node name="groundEarth273" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -8.49089 )
+
+[node name="groundEarth321" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 1.50911 )
+
+[node name="groundEarth18" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 6.50911 )
+
+[node name="groundEarth106" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -3.49089 )
+
+[node name="groundEarth294" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -3.49089 )
+
+[node name="groundEarth341" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 6.50911 )
+
+[node name="groundEarth31" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 6.50911 )
+
+[node name="groundEarth133" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -3.49089 )
+
+[node name="groundEarth223" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -3.49089 )
+
+[node name="groundEarth360" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 6.50911 )
+
+[node name="groundEarth62" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 1.50911 )
+
+[node name="groundEarth150" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -8.49089 )
+
+[node name="groundEarth254" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -8.49089 )
+
+[node name="groundEarth353" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 1.50911 )
+
+[node name="groundEarth89" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 1.50911 )
+
+[node name="groundEarth188" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -8.49089 )
+
+[node name="groundEarth287" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -8.49089 )
+
+[node name="groundEarth315" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 1.50911 )
+
+[node name="groundEarth2" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 7.50911 )
+
+[node name="groundEarth158" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -2.49089 )
+
+[node name="groundEarth237" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -2.49089 )
+
+[node name="groundEarth367" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 7.50911 )
+
+[node name="groundEarth50" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 7.50911 )
+
+[node name="groundEarth163" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -2.49089 )
+
+[node name="groundEarth240" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -2.49089 )
+
+[node name="groundEarth362" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 7.50911 )
+
+[node name="groundEarth68" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 2.50911 )
+
+[node name="groundEarth141" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -7.49089 )
+
+[node name="groundEarth231" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -7.49089 )
+
+[node name="groundEarth361" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 2.50911 )
+
+[node name="groundEarth80" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 2.50911 )
+
+[node name="groundEarth178" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -7.49089 )
+
+[node name="groundEarth253" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -7.49089 )
+
+[node name="groundEarth347" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 2.50911 )
+
+[node name="groundEarth20" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 7.50911 )
+
+[node name="groundEarth118" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -2.49089 )
+
+[node name="groundEarth212" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -2.49089 )
+
+[node name="groundEarth387" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 7.50911 )
+
+[node name="groundEarth43" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 7.50911 )
+
+[node name="groundEarth162" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -2.49089 )
+
+[node name="groundEarth260" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -2.49089 )
+
+[node name="groundEarth331" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 7.50911 )
+
+[node name="groundEarth67" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 2.50911 )
+
+[node name="groundEarth144" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -7.49089 )
+
+[node name="groundEarth226" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -7.49089 )
+
+[node name="groundEarth364" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 2.50911 )
+
+[node name="groundEarth83" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 2.50911 )
+
+[node name="groundEarth191" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -7.49089 )
+
+[node name="groundEarth280" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -7.49089 )
+
+[node name="groundEarth312" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 2.50911 )
+
+[node name="groundEarth3" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 8.50911 )
+
+[node name="groundEarth157" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -1.49089 )
+
+[node name="groundEarth252" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -1.49089 )
+
+[node name="groundEarth345" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 8.50911 )
+
+[node name="groundEarth49" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 8.50911 )
+
+[node name="groundEarth174" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -1.49089 )
+
+[node name="groundEarth262" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -1.49089 )
+
+[node name="groundEarth303" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 8.50911 )
+
+[node name="groundEarth75" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 3.50911 )
+
+[node name="groundEarth153" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -6.49089 )
+
+[node name="groundEarth269" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -6.49089 )
+
+[node name="groundEarth326" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 3.50911 )
+
+[node name="groundEarth92" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 3.50911 )
+
+[node name="groundEarth192" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -6.49089 )
+
+[node name="groundEarth276" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -6.49089 )
+
+[node name="groundEarth307" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 3.50911 )
+
+[node name="groundEarth19" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 8.50911 )
+
+[node name="groundEarth117" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -1.49089 )
+
+[node name="groundEarth214" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -1.49089 )
+
+[node name="groundEarth389" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 8.50911 )
+
+[node name="groundEarth42" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 8.50911 )
+
+[node name="groundEarth167" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -1.49089 )
+
+[node name="groundEarth258" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -1.49089 )
+
+[node name="groundEarth309" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 8.50911 )
+
+[node name="groundEarth69" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 3.50911 )
+
+[node name="groundEarth142" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -6.49089 )
+
+[node name="groundEarth232" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -6.49089 )
+
+[node name="groundEarth375" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 3.50911 )
+
+[node name="groundEarth81" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 3.50911 )
+
+[node name="groundEarth185" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -6.49089 )
+
+[node name="groundEarth288" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -6.49089 )
+
+[node name="groundEarth301" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 3.50911 )
+
+[node name="groundEarth4" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 9.50911 )
+
+[node name="groundEarth155" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -0.490893 )
+
+[node name="groundEarth247" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -0.490893 )
+
+[node name="groundEarth371" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 9.50911 )
+
+[node name="groundEarth47" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 9.50911 )
+
+[node name="groundEarth160" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -0.490893 )
+
+[node name="groundEarth245" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -0.490893 )
+
+[node name="groundEarth350" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 9.50911 )
+
+[node name="groundEarth66" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 4.50911 )
+
+[node name="groundEarth139" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -5.49089 )
+
+[node name="groundEarth220" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -5.49089 )
+
+[node name="groundEarth398" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 4.50911 )
+
+[node name="groundEarth78" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 4.50911 )
+
+[node name="groundEarth182" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -5.49089 )
+
+[node name="groundEarth255" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -5.49089 )
+
+[node name="groundEarth348" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 4.50911 )
+
+[node name="groundEarth17" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 9.50911 )
+
+[node name="groundEarth104" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -0.490893 )
+
+[node name="groundEarth297" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -0.490893 )
+
+[node name="groundEarth344" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 9.50911 )
+
+[node name="groundEarth29" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 9.50911 )
+
+[node name="groundEarth121" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -0.490893 )
+
+[node name="groundEarth215" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -0.490893 )
+
+[node name="groundEarth396" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 9.50911 )
+
+[node name="groundEarth53" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 4.50911 )
+
+[node name="groundEarth159" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -5.49089 )
+
+[node name="groundEarth261" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -5.49089 )
+
+[node name="groundEarth302" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 4.50911 )
+
+[node name="groundEarth93" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 4.50911 )
+
+[node name="groundEarth193" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -5.49089 )
+
+[node name="groundEarth284" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -5.49089 )
+
+[node name="groundEarth313" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 4.50911 )
+
+[node name="groundEarth5" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 9.50911 )
+
+[node name="groundEarth108" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -0.490893 )
+
+[node name="groundEarth299" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -0.490893 )
+
+[node name="groundEarth338" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 9.50911 )
+
+[node name="groundEarth33" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 9.50911 )
+
+[node name="groundEarth122" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -0.490893 )
+
+[node name="groundEarth204" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -0.490893 )
+
+[node name="groundEarth383" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 9.50911 )
+
+[node name="groundEarth54" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 4.50911 )
+
+[node name="groundEarth164" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -5.49089 )
+
+[node name="groundEarth239" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -5.49089 )
+
+[node name="groundEarth376" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 4.50911 )
+
+[node name="groundEarth95" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 4.50911 )
+
+[node name="groundEarth198" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -5.49089 )
+
+[node name="groundEarth286" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -5.49089 )
+
+[node name="groundEarth336" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 4.50911 )
+
+[node name="groundEarth12" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 9.50911 )
+
+[node name="groundEarth110" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -0.490893 )
+
+[node name="groundEarth290" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -0.490893 )
+
+[node name="groundEarth317" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 9.50911 )
+
+[node name="groundEarth35" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 9.50911 )
+
+[node name="groundEarth130" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -0.490893 )
+
+[node name="groundEarth210" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -0.490893 )
+
+[node name="groundEarth394" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 9.50911 )
+
+[node name="groundEarth60" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 4.50911 )
+
+[node name="groundEarth138" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -5.49089 )
+
+[node name="groundEarth221" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -5.49089 )
+
+[node name="groundEarth369" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 4.50911 )
+
+[node name="groundEarth77" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 4.50911 )
+
+[node name="groundEarth183" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -5.49089 )
+
+[node name="groundEarth256" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -5.49089 )
+
+[node name="groundEarth349" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 4.50911 )
+
+[node name="groundEarth6" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 8.50911 )
+
+[node name="groundEarth114" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -1.49089 )
+
+[node name="groundEarth211" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -1.49089 )
+
+[node name="groundEarth385" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 8.50911 )
+
+[node name="groundEarth39" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 8.50911 )
+
+[node name="groundEarth131" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -1.49089 )
+
+[node name="groundEarth225" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -1.49089 )
+
+[node name="groundEarth354" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 8.50911 )
+
+[node name="groundEarth61" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 3.50911 )
+
+[node name="groundEarth147" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -6.49089 )
+
+[node name="groundEarth228" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -6.49089 )
+
+[node name="groundEarth365" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 3.50911 )
+
+[node name="groundEarth86" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 3.50911 )
+
+[node name="groundEarth186" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -6.49089 )
+
+[node name="groundEarth275" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -6.49089 )
+
+[node name="groundEarth314" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 3.50911 )
+
+[node name="groundEarth16" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 8.50911 )
+
+[node name="groundEarth115" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -1.49089 )
+
+[node name="groundEarth201" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -1.49089 )
+
+[node name="groundEarth400" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 8.50911 )
+
+[node name="groundEarth40" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 8.50911 )
+
+[node name="groundEarth120" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -1.49089 )
+
+[node name="groundEarth209" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -1.49089 )
+
+[node name="groundEarth399" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 8.50911 )
+
+[node name="groundEarth52" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 3.50911 )
+
+[node name="groundEarth171" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -6.49089 )
+
+[node name="groundEarth266" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -6.49089 )
+
+[node name="groundEarth335" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 3.50911 )
+
+[node name="groundEarth98" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 3.50911 )
+
+[node name="groundEarth199" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -6.49089 )
+
+[node name="groundEarth278" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -6.49089 )
+
+[node name="groundEarth308" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 3.50911 )
+
+[node name="groundEarth7" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 7.50911 )
+
+[node name="groundEarth113" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -2.49089 )
+
+[node name="groundEarth213" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -2.49089 )
+
+[node name="groundEarth388" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 7.50911 )
+
+[node name="groundEarth38" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 7.50911 )
+
+[node name="groundEarth123" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -2.49089 )
+
+[node name="groundEarth216" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -2.49089 )
+
+[node name="groundEarth390" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 7.50911 )
+
+[node name="groundEarth55" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 2.50911 )
+
+[node name="groundEarth176" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -7.49089 )
+
+[node name="groundEarth267" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -7.49089 )
+
+[node name="groundEarth305" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 2.50911 )
+
+[node name="groundEarth100" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 2.50911 )
+
+[node name="groundEarth200" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -7.49089 )
+
+[node name="groundEarth283" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -7.49089 )
+
+[node name="groundEarth322" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 2.50911 )
+
+[node name="groundEarth15" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 7.50911 )
+
+[node name="groundEarth105" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -2.49089 )
+
+[node name="groundEarth293" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -2.49089 )
+
+[node name="groundEarth343" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 7.50911 )
+
+[node name="groundEarth30" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 7.50911 )
+
+[node name="groundEarth125" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -2.49089 )
+
+[node name="groundEarth217" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -2.49089 )
+
+[node name="groundEarth392" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 7.50911 )
+
+[node name="groundEarth57" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 2.50911 )
+
+[node name="groundEarth166" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -7.49089 )
+
+[node name="groundEarth246" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -7.49089 )
+
+[node name="groundEarth379" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 2.50911 )
+
+[node name="groundEarth97" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 2.50911 )
+
+[node name="groundEarth196" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -7.49089 )
+
+[node name="groundEarth274" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -7.49089 )
+
+[node name="groundEarth320" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 2.50911 )
+
+[node name="groundEarth8" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 6.50911 )
+
+[node name="groundEarth109" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -3.49089 )
+
+[node name="groundEarth300" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -3.49089 )
+
+[node name="groundEarth342" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 6.50911 )
+
+[node name="groundEarth34" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 6.50911 )
+
+[node name="groundEarth119" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -3.49089 )
+
+[node name="groundEarth202" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -3.49089 )
+
+[node name="groundEarth386" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 6.50911 )
+
+[node name="groundEarth51" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 1.50911 )
+
+[node name="groundEarth161" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -8.49089 )
+
+[node name="groundEarth270" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -8.49089 )
+
+[node name="groundEarth328" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 1.50911 )
+
+[node name="groundEarth94" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 1.50911 )
+
+[node name="groundEarth179" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -8.49089 )
+
+[node name="groundEarth271" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -8.49089 )
+
+[node name="groundEarth325" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 1.50911 )
+
+[node name="groundEarth13" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 6.50911 )
+
+[node name="groundEarth102" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -3.49089 )
+
+[node name="groundEarth296" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -3.49089 )
+
+[node name="groundEarth340" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 6.50911 )
+
+[node name="groundEarth27" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 6.50911 )
+
+[node name="groundEarth136" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -3.49089 )
+
+[node name="groundEarth234" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -3.49089 )
+
+[node name="groundEarth356" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 6.50911 )
+
+[node name="groundEarth65" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 1.50911 )
+
+[node name="groundEarth152" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -8.49089 )
+
+[node name="groundEarth242" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -8.49089 )
+
+[node name="groundEarth368" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 1.50911 )
+
+[node name="groundEarth91" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 1.50911 )
+
+[node name="groundEarth190" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -8.49089 )
+
+[node name="groundEarth279" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -8.49089 )
+
+[node name="groundEarth319" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 1.50911 )
+
+[node name="groundEarth9" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 5.50911 )
+
+[node name="groundEarth103" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -4.49089 )
+
+[node name="groundEarth295" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -4.49089 )
+
+[node name="groundEarth339" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 5.50911 )
+
+[node name="groundEarth28" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 5.50911 )
+
+[node name="groundEarth124" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -4.49089 )
+
+[node name="groundEarth205" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -4.49089 )
+
+[node name="groundEarth395" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 5.50911 )
+
+[node name="groundEarth56" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 0.509107 )
+
+[node name="groundEarth165" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -9.49089 )
+
+[node name="groundEarth257" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -9.49089 )
+
+[node name="groundEarth306" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 0.509107 )
+
+[node name="groundEarth96" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 0.509107 )
+
+[node name="groundEarth195" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -9.49089 )
+
+[node name="groundEarth281" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -9.49089 )
+
+[node name="groundEarth327" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 0.509107 )
+
+[node name="groundEarth11" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 5.50911 )
+
+[node name="groundEarth116" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -4.49089 )
+
+[node name="groundEarth203" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -4.49089 )
+
+[node name="groundEarth381" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 5.50911 )
+
+[node name="groundEarth41" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 5.50911 )
+
+[node name="groundEarth170" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -4.49089 )
+
+[node name="groundEarth249" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -4.49089 )
+
+[node name="groundEarth351" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 5.50911 )
+
+[node name="groundEarth72" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 0.509107 )
+
+[node name="groundEarth146" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -9.49089 )
+
+[node name="groundEarth233" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -9.49089 )
+
+[node name="groundEarth355" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 0.509107 )
+
+[node name="groundEarth85" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 0.509107 )
+
+[node name="groundEarth184" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -9.49089 )
+
+[node name="groundEarth263" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -9.49089 )
+
+[node name="groundEarth324" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 0.509107 )
+
+[node name="groundEarth10" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 5.50911 )
+
+[node name="groundEarth111" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -4.49089 )
+
+[node name="groundEarth291" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -4.49089 )
+
+[node name="groundEarth318" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 5.50911 )
+
+[node name="groundEarth36" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 5.50911 )
+
+[node name="groundEarth135" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -4.49089 )
+
+[node name="groundEarth236" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -4.49089 )
+
+[node name="groundEarth357" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 5.50911 )
+
+[node name="groundEarth64" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 0.509107 )
+
+[node name="groundEarth148" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -9.49089 )
+
+[node name="groundEarth230" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -9.49089 )
+
+[node name="groundEarth374" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 0.509107 )
+
+[node name="groundEarth87" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 0.509107 )
+
+[node name="groundEarth187" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -9.49089 )
+
+[node name="groundEarth277" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -9.49089 )
+
+[node name="groundEarth329" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 0.509107 )
+
+[node name="groundEarth14" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 6.50911 )
+
+[node name="groundEarth112" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -3.49089 )
+
+[node name="groundEarth292" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -3.49089 )
+
+[node name="groundEarth323" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 6.50911 )
+
+[node name="groundEarth37" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 6.50911 )
+
+[node name="groundEarth134" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -3.49089 )
+
+[node name="groundEarth235" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -3.49089 )
+
+[node name="groundEarth366" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 6.50911 )
+
+[node name="groundEarth63" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 1.50911 )
+
+[node name="groundEarth143" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -8.49089 )
+
+[node name="groundEarth222" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -8.49089 )
+
+[node name="groundEarth358" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 1.50911 )
+
+[node name="groundEarth82" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 1.50911 )
+
+[node name="groundEarth180" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -8.49089 )
+
+[node name="groundEarth251" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -8.49089 )
+
+[node name="groundEarth380" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 1.50911 )
+
+[node name="groundEarth25" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 5.50911 )
+
+[node name="groundEarth132" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -4.49089 )
+
+[node name="groundEarth227" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -4.49089 )
+
+[node name="groundEarth373" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 5.50911 )
+
+[node name="groundEarth46" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 5.50911 )
+
+[node name="groundEarth168" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -4.49089 )
+
+[node name="groundEarth238" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -4.49089 )
+
+[node name="groundEarth359" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 5.50911 )
+
+[node name="groundEarth70" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 0.509107 )
+
+[node name="groundEarth145" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -9.49089 )
+
+[node name="groundEarth363" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 0.509107 )
+
+[node name="groundEarth84" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 0.509107 )
+
+[node name="groundEarth181" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -9.49089 )
+
+[node name="groundEarth272" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -9.49089 )
+
+[node name="groundEarth330" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 0.509107 )
+
+[node name="groundEarth24" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 5.50911 )
+
+[node name="groundEarth126" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -4.49089 )
+
+[node name="groundEarth218" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -4.49089 )
+
+[node name="groundEarth393" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 5.50911 )
+
+[node name="groundEarth44" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 5.50911 )
+
+[node name="groundEarth169" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -4.49089 )
+
+[node name="groundEarth248" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -4.49089 )
+
+[node name="groundEarth372" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 5.50911 )
+
+[node name="groundEarth71" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 0.509107 )
+
+[node name="groundEarth137" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -9.49089 )
+
+[node name="groundEarth219" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -9.49089 )
+
+[node name="groundEarth397" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 0.509107 )
+
+[node name="groundEarth76" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 0.509107 )
+
+[node name="groundEarth154" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -9.49089 )
+
+[node name="groundEarth268" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -9.49089 )
+
+[node name="groundEarth333" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 0.509107 )
+
+[node name="groundEarth23" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 9.50911 )
+
+[node name="groundEarth127" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -0.490893 )
+
+[node name="groundEarth206" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -0.490893 )
+
+[node name="groundEarth382" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 9.50911 )
+
+[node name="groundEarth45" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 9.50911 )
+
+[node name="groundEarth172" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -0.490893 )
+
+[node name="groundEarth250" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -0.490893 )
+
+[node name="groundEarth346" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 9.50911 )
+
+[node name="groundEarth73" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 4.50911 )
+
+[node name="groundEarth151" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -5.49089 )
+
+[node name="groundEarth244" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -5.49089 )
+
+[node name="groundEarth370" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 4.50911 )
+
+[node name="groundEarth90" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 4.50911 )
+
+[node name="groundEarth177" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -5.49089 )
+
+[node name="groundEarth259" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -5.49089 )
+
+[node name="groundEarth310" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 4.50911 )
+
+[node name="groundEarth22" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 8.50911 )
+
+[node name="groundEarth101" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -1.49089 )
+
+[node name="groundEarth289" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -1.49089 )
+
+[node name="groundEarth316" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 8.50911 )
+
+[node name="groundEarth26" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 8.50911 )
+
+[node name="groundEarth128" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -1.49089 )
+
+[node name="groundEarth207" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -1.49089 )
+
+[node name="groundEarth384" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 8.50911 )
+
+[node name="groundEarth58" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 3.50911 )
+
+[node name="groundEarth175" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -6.49089 )
+
+[node name="groundEarth265" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -6.49089 )
+
+[node name="groundEarth332" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 3.50911 )
+
+[node name="groundEarth99" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 3.50911 )
+
+[node name="groundEarth197" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -6.49089 )
+
+[node name="groundEarth282" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -6.49089 )
+
+[node name="groundEarth311" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 3.50911 )
+
+[node name="groundEarth21" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 7.50911 )
+
+[node name="groundEarth107" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -2.49089 )
+
+[node name="groundEarth298" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -2.49089 )
+
+[node name="groundEarth337" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 7.50911 )
+
+[node name="groundEarth32" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 7.50911 )
+
+[node name="groundEarth129" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -2.49089 )
+
+[node name="groundEarth208" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -2.49089 )
+
+[node name="groundEarth391" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 7.50911 )
+
+[node name="groundEarth59" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 2.50911 )
+
+[node name="groundEarth140" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -7.49089 )
+
+[node name="groundEarth224" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -7.49089 )
+
+[node name="groundEarth377" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 2.50911 )
+
+[node name="groundEarth79" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 2.50911 )
+
+[node name="groundEarth194" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -7.49089 )
+
+[node name="groundEarth285" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -7.49089 )
+
+[node name="groundEarth334" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 2.50911 )
+
+[node name="groundEarth229" parent="20x20" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -9.49089 )
+
+[node name="20x21" type="Spatial" parent="."]
+editor/display_folded = true
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 20 )
+
+[node name="groundEarth" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 6.50911 )
+
+[node name="groundEarth156" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -3.49089 )
+
+[node name="groundEarth243" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -3.49089 )
+
+[node name="groundEarth352" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 6.50911 )
+
+[node name="groundEarth417" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, -1.99089 )
+
+[node name="groundEarth561" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 1, 0.00910568 )
+
+[node name="groundEarth48" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 6.50911 )
+
+[node name="groundEarth173" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -3.49089 )
+
+[node name="groundEarth264" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -3.49089 )
+
+[node name="groundEarth304" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 6.50911 )
+
+[node name="groundEarth418" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, -1.99089 )
+
+[node name="groundEarth503" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, 0.00910568 )
+
+[node name="groundEarth74" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 1.50911 )
+
+[node name="groundEarth149" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -8.49089 )
+
+[node name="groundEarth241" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -8.49089 )
+
+[node name="groundEarth378" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 1.50911 )
+
+[node name="groundEarth419" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, -6.99089 )
+
+[node name="groundEarth504" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, -4.99089 )
+
+[node name="groundEarth88" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 1.50911 )
+
+[node name="groundEarth189" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -8.49089 )
+
+[node name="groundEarth273" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -8.49089 )
+
+[node name="groundEarth321" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 1.50911 )
+
+[node name="groundEarth422" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, -6.99089 )
+
+[node name="groundEarth516" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 1, -4.99089 )
+
+[node name="groundEarth18" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 6.50911 )
+
+[node name="groundEarth106" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -3.49089 )
+
+[node name="groundEarth294" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -3.49089 )
+
+[node name="groundEarth341" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 6.50911 )
+
+[node name="groundEarth424" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, -1.99089 )
+
+[node name="groundEarth510" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, 0.00910568 )
+
+[node name="groundEarth31" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 6.50911 )
+
+[node name="groundEarth133" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -3.49089 )
+
+[node name="groundEarth223" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -3.49089 )
+
+[node name="groundEarth360" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 6.50911 )
+
+[node name="groundEarth423" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, -1.99089 )
+
+[node name="groundEarth502" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, 0.00910568 )
+
+[node name="groundEarth62" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 1.50911 )
+
+[node name="groundEarth150" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -8.49089 )
+
+[node name="groundEarth254" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -8.49089 )
+
+[node name="groundEarth353" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 1.50911 )
+
+[node name="groundEarth420" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, -6.99089 )
+
+[node name="groundEarth507" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, -4.99089 )
+
+[node name="groundEarth89" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 1.50911 )
+
+[node name="groundEarth188" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -8.49089 )
+
+[node name="groundEarth287" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -8.49089 )
+
+[node name="groundEarth315" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 1.50911 )
+
+[node name="groundEarth421" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, -6.99089 )
+
+[node name="groundEarth495" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, -4.99089 )
+
+[node name="groundEarth2" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 7.50911 )
+
+[node name="groundEarth158" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -2.49089 )
+
+[node name="groundEarth237" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -2.49089 )
+
+[node name="groundEarth367" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 7.50911 )
+
+[node name="groundEarth402" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, -0.990894 )
+
+[node name="groundEarth552" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 1, 1.00911 )
+
+[node name="groundEarth50" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 7.50911 )
+
+[node name="groundEarth163" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -2.49089 )
+
+[node name="groundEarth240" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -2.49089 )
+
+[node name="groundEarth362" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 7.50911 )
+
+[node name="groundEarth563" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, 2.00911 )
+
+[node name="groundEarth596" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, 5.00911 )
+
+[node name="groundEarth405" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, -0.990894 )
+
+[node name="groundEarth553" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, 1.00911 )
+
+[node name="groundEarth68" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 2.50911 )
+
+[node name="groundEarth141" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -7.49089 )
+
+[node name="groundEarth231" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -7.49089 )
+
+[node name="groundEarth361" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 2.50911 )
+
+[node name="groundEarth404" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, -5.99089 )
+
+[node name="groundEarth546" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, -3.99089 )
+
+[node name="groundEarth80" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 2.50911 )
+
+[node name="groundEarth178" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -7.49089 )
+
+[node name="groundEarth253" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -7.49089 )
+
+[node name="groundEarth347" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 2.50911 )
+
+[node name="groundEarth401" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, -5.99089 )
+
+[node name="groundEarth547" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 1, -3.99089 )
+
+[node name="groundEarth20" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 7.50911 )
+
+[node name="groundEarth118" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -2.49089 )
+
+[node name="groundEarth212" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -2.49089 )
+
+[node name="groundEarth387" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 7.50911 )
+
+[node name="groundEarth565" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, 2.00911 )
+
+[node name="groundEarth599" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, 3.00911 )
+
+[node name="groundEarth407" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, -0.990894 )
+
+[node name="groundEarth549" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, 1.00911 )
+
+[node name="groundEarth43" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 7.50911 )
+
+[node name="groundEarth162" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -2.49089 )
+
+[node name="groundEarth260" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -2.49089 )
+
+[node name="groundEarth331" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 7.50911 )
+
+[node name="groundEarth564" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, 2.00911 )
+
+[node name="groundEarth591" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, 3.00911 )
+
+[node name="groundEarth406" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, -0.990894 )
+
+[node name="groundEarth548" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, 1.00911 )
+
+[node name="groundEarth67" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 2.50911 )
+
+[node name="groundEarth144" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -7.49089 )
+
+[node name="groundEarth226" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -7.49089 )
+
+[node name="groundEarth364" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 2.50911 )
+
+[node name="groundEarth403" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, -5.99089 )
+
+[node name="groundEarth562" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, -3.99089 )
+
+[node name="groundEarth83" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 2.50911 )
+
+[node name="groundEarth191" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -7.49089 )
+
+[node name="groundEarth280" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -7.49089 )
+
+[node name="groundEarth312" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 2.50911 )
+
+[node name="groundEarth408" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, -5.99089 )
+
+[node name="groundEarth556" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, -3.99089 )
+
+[node name="groundEarth3" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 8.50911 )
+
+[node name="groundEarth157" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -1.49089 )
+
+[node name="groundEarth252" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -1.49089 )
+
+[node name="groundEarth345" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 8.50911 )
+
+[node name="groundEarth409" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, 0.00910568 )
+
+[node name="groundEarth558" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 1, 2.00911 )
+
+[node name="groundEarth49" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 8.50911 )
+
+[node name="groundEarth174" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -1.49089 )
+
+[node name="groundEarth262" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -1.49089 )
+
+[node name="groundEarth303" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 8.50911 )
+
+[node name="groundEarth567" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, 3.00911 )
+
+[node name="groundEarth604" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, 3.00911 )
+
+[node name="groundEarth414" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, 0.00910568 )
+
+[node name="groundEarth559" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, 2.00911 )
+
+[node name="groundEarth75" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 3.50911 )
+
+[node name="groundEarth153" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -6.49089 )
+
+[node name="groundEarth269" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -6.49089 )
+
+[node name="groundEarth326" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 3.50911 )
+
+[node name="groundEarth410" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, -4.99089 )
+
+[node name="groundEarth554" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, -2.99089 )
+
+[node name="groundEarth92" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 3.50911 )
+
+[node name="groundEarth192" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -6.49089 )
+
+[node name="groundEarth276" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -6.49089 )
+
+[node name="groundEarth307" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 3.50911 )
+
+[node name="groundEarth411" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, -4.99089 )
+
+[node name="groundEarth555" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 1, -2.99089 )
+
+[node name="groundEarth19" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 8.50911 )
+
+[node name="groundEarth117" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -1.49089 )
+
+[node name="groundEarth214" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -1.49089 )
+
+[node name="groundEarth389" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 8.50911 )
+
+[node name="groundEarth568" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, 3.00911 )
+
+[node name="groundEarth593" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, 6.00911 )
+
+[node name="groundEarth415" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, 0.00910568 )
+
+[node name="groundEarth560" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, 2.00911 )
+
+[node name="groundEarth42" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 8.50911 )
+
+[node name="groundEarth167" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -1.49089 )
+
+[node name="groundEarth258" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -1.49089 )
+
+[node name="groundEarth309" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 8.50911 )
+
+[node name="groundEarth566" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, 3.00911 )
+
+[node name="groundEarth602" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, 4.00911 )
+
+[node name="groundEarth413" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, 0.00910568 )
+
+[node name="groundEarth557" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, 2.00911 )
+
+[node name="groundEarth69" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 3.50911 )
+
+[node name="groundEarth142" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -6.49089 )
+
+[node name="groundEarth232" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -6.49089 )
+
+[node name="groundEarth375" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 3.50911 )
+
+[node name="groundEarth412" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, -4.99089 )
+
+[node name="groundEarth550" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, -2.99089 )
+
+[node name="groundEarth81" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 3.50911 )
+
+[node name="groundEarth185" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -6.49089 )
+
+[node name="groundEarth288" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -6.49089 )
+
+[node name="groundEarth301" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 3.50911 )
+
+[node name="groundEarth416" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, -4.99089 )
+
+[node name="groundEarth551" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, -2.99089 )
+
+[node name="groundEarth4" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 9.50911 )
+
+[node name="groundEarth155" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -0.490893 )
+
+[node name="groundEarth247" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -0.490893 )
+
+[node name="groundEarth371" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 9.50911 )
+
+[node name="groundEarth467" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, 1.00911 )
+
+[node name="groundEarth531" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 1, 3.00911 )
+
+[node name="groundEarth47" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 9.50911 )
+
+[node name="groundEarth160" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -0.490893 )
+
+[node name="groundEarth245" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -0.490893 )
+
+[node name="groundEarth350" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 9.50911 )
+
+[node name="groundEarth580" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, 4.00911 )
+
+[node name="groundEarth606" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, 4.00911 )
+
+[node name="groundEarth468" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, 1.00911 )
+
+[node name="groundEarth532" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, 6.00911 )
+
+[node name="groundEarth66" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 4.50911 )
+
+[node name="groundEarth139" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -5.49089 )
+
+[node name="groundEarth220" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -5.49089 )
+
+[node name="groundEarth398" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 4.50911 )
+
+[node name="groundEarth465" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, -3.99089 )
+
+[node name="groundEarth525" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, -1.99089 )
+
+[node name="groundEarth78" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 4.50911 )
+
+[node name="groundEarth182" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -5.49089 )
+
+[node name="groundEarth255" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -5.49089 )
+
+[node name="groundEarth348" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 4.50911 )
+
+[node name="groundEarth463" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, -3.99089 )
+
+[node name="groundEarth541" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 1, -1.99089 )
+
+[node name="groundEarth17" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 9.50911 )
+
+[node name="groundEarth104" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -0.490893 )
+
+[node name="groundEarth297" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -0.490893 )
+
+[node name="groundEarth344" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 9.50911 )
+
+[node name="groundEarth581" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, 4.00911 )
+
+[node name="groundEarth589" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, 5.00911 )
+
+[node name="groundEarth469" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, 1.00911 )
+
+[node name="groundEarth527" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, 4.00911 )
+
+[node name="groundEarth29" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 9.50911 )
+
+[node name="groundEarth121" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -0.490893 )
+
+[node name="groundEarth215" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -0.490893 )
+
+[node name="groundEarth396" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 9.50911 )
+
+[node name="groundEarth579" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, 4.00911 )
+
+[node name="groundEarth588" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, 6.00911 )
+
+[node name="groundEarth464" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, 1.00911 )
+
+[node name="groundEarth536" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, 5.00911 )
+
+[node name="groundEarth53" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 4.50911 )
+
+[node name="groundEarth159" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -5.49089 )
+
+[node name="groundEarth261" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -5.49089 )
+
+[node name="groundEarth302" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 4.50911 )
+
+[node name="groundEarth466" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, -3.99089 )
+
+[node name="groundEarth526" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, -1.99089 )
+
+[node name="groundEarth93" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 4.50911 )
+
+[node name="groundEarth193" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -5.49089 )
+
+[node name="groundEarth284" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -5.49089 )
+
+[node name="groundEarth313" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 4.50911 )
+
+[node name="groundEarth470" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, -3.99089 )
+
+[node name="groundEarth542" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, -1.99089 )
+
+[node name="groundEarth5" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 9.50911 )
+
+[node name="groundEarth108" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -0.490893 )
+
+[node name="groundEarth299" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -0.490893 )
+
+[node name="groundEarth338" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 9.50911 )
+
+[node name="groundEarth33" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 9.50911 )
+
+[node name="groundEarth122" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -0.490893 )
+
+[node name="groundEarth204" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -0.490893 )
+
+[node name="groundEarth383" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 9.50911 )
+
+[node name="groundEarth572" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, 4.00911 )
+
+[node name="groundEarth597" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, 4.00911 )
+
+[node name="groundEarth449" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, 1.00911 )
+
+[node name="groundEarth500" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, 6.00911 )
+
+[node name="groundEarth54" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 4.50911 )
+
+[node name="groundEarth164" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -5.49089 )
+
+[node name="groundEarth239" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -5.49089 )
+
+[node name="groundEarth376" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 4.50911 )
+
+[node name="groundEarth452" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, -3.99089 )
+
+[node name="groundEarth520" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, -1.99089 )
+
+[node name="groundEarth95" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 4.50911 )
+
+[node name="groundEarth198" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -5.49089 )
+
+[node name="groundEarth286" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -5.49089 )
+
+[node name="groundEarth336" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 4.50911 )
+
+[node name="groundEarth12" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 9.50911 )
+
+[node name="groundEarth110" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -0.490893 )
+
+[node name="groundEarth290" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -0.490893 )
+
+[node name="groundEarth317" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 9.50911 )
+
+[node name="groundEarth573" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, 4.00911 )
+
+[node name="groundEarth600" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, 4.00911 )
+
+[node name="groundEarth451" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, 1.00911 )
+
+[node name="groundEarth519" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, 3.00911 )
+
+[node name="groundEarth35" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 9.50911 )
+
+[node name="groundEarth130" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -0.490893 )
+
+[node name="groundEarth210" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -0.490893 )
+
+[node name="groundEarth394" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 9.50911 )
+
+[node name="groundEarth574" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, 4.00911 )
+
+[node name="groundEarth592" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, 5.00911 )
+
+[node name="groundEarth453" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, 1.00911 )
+
+[node name="groundEarth486" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, 6.00911 )
+
+[node name="groundEarth60" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 4.50911 )
+
+[node name="groundEarth138" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -5.49089 )
+
+[node name="groundEarth221" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -5.49089 )
+
+[node name="groundEarth369" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 4.50911 )
+
+[node name="groundEarth454" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, -3.99089 )
+
+[node name="groundEarth485" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, -1.99089 )
+
+[node name="groundEarth77" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 4.50911 )
+
+[node name="groundEarth183" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -5.49089 )
+
+[node name="groundEarth256" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -5.49089 )
+
+[node name="groundEarth349" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 4.50911 )
+
+[node name="groundEarth455" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, -3.99089 )
+
+[node name="groundEarth521" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, -1.99089 )
+
+[node name="groundEarth6" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 8.50911 )
+
+[node name="groundEarth114" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -1.49089 )
+
+[node name="groundEarth211" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -1.49089 )
+
+[node name="groundEarth385" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 8.50911 )
+
+[node name="groundEarth39" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 8.50911 )
+
+[node name="groundEarth131" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -1.49089 )
+
+[node name="groundEarth225" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -1.49089 )
+
+[node name="groundEarth354" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 8.50911 )
+
+[node name="groundEarth575" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, 3.00911 )
+
+[node name="groundEarth601" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, 3.00911 )
+
+[node name="groundEarth456" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, 0.00910568 )
+
+[node name="groundEarth493" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, 2.00911 )
+
+[node name="groundEarth61" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 3.50911 )
+
+[node name="groundEarth147" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -6.49089 )
+
+[node name="groundEarth228" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -6.49089 )
+
+[node name="groundEarth365" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 3.50911 )
+
+[node name="groundEarth450" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, -4.99089 )
+
+[node name="groundEarth483" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, -2.99089 )
+
+[node name="groundEarth86" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 3.50911 )
+
+[node name="groundEarth186" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -6.49089 )
+
+[node name="groundEarth275" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -6.49089 )
+
+[node name="groundEarth314" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 3.50911 )
+
+[node name="groundEarth16" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 8.50911 )
+
+[node name="groundEarth115" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -1.49089 )
+
+[node name="groundEarth201" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -1.49089 )
+
+[node name="groundEarth400" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 8.50911 )
+
+[node name="groundEarth576" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, 3.00911 )
+
+[node name="groundEarth603" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, 6.00911 )
+
+[node name="groundEarth459" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, 0.00910568 )
+
+[node name="groundEarth522" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, 2.00911 )
+
+[node name="groundEarth40" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 8.50911 )
+
+[node name="groundEarth120" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -1.49089 )
+
+[node name="groundEarth209" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -1.49089 )
+
+[node name="groundEarth399" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 8.50911 )
+
+[node name="groundEarth577" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, 3.00911 )
+
+[node name="groundEarth587" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, 3.00911 )
+
+[node name="groundEarth460" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, 0.00910568 )
+
+[node name="groundEarth524" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, 2.00911 )
+
+[node name="groundEarth52" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 3.50911 )
+
+[node name="groundEarth171" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -6.49089 )
+
+[node name="groundEarth266" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -6.49089 )
+
+[node name="groundEarth335" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 3.50911 )
+
+[node name="groundEarth457" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, -4.99089 )
+
+[node name="groundEarth490" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, -2.99089 )
+
+[node name="groundEarth98" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 3.50911 )
+
+[node name="groundEarth199" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -6.49089 )
+
+[node name="groundEarth278" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -6.49089 )
+
+[node name="groundEarth308" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 3.50911 )
+
+[node name="groundEarth458" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, -4.99089 )
+
+[node name="groundEarth539" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, -2.99089 )
+
+[node name="groundEarth7" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 7.50911 )
+
+[node name="groundEarth113" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -2.49089 )
+
+[node name="groundEarth213" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -2.49089 )
+
+[node name="groundEarth388" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 7.50911 )
+
+[node name="groundEarth38" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 7.50911 )
+
+[node name="groundEarth123" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -2.49089 )
+
+[node name="groundEarth216" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -2.49089 )
+
+[node name="groundEarth390" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 7.50911 )
+
+[node name="groundEarth578" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, 2.00911 )
+
+[node name="groundEarth605" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, 5.00911 )
+
+[node name="groundEarth461" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, -0.990894 )
+
+[node name="groundEarth523" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, 1.00911 )
+
+[node name="groundEarth55" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 2.50911 )
+
+[node name="groundEarth176" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -7.49089 )
+
+[node name="groundEarth267" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -7.49089 )
+
+[node name="groundEarth305" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 2.50911 )
+
+[node name="groundEarth462" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, -5.99089 )
+
+[node name="groundEarth530" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, -3.99089 )
+
+[node name="groundEarth100" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 2.50911 )
+
+[node name="groundEarth200" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -7.49089 )
+
+[node name="groundEarth283" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -7.49089 )
+
+[node name="groundEarth322" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 2.50911 )
+
+[node name="groundEarth15" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 7.50911 )
+
+[node name="groundEarth105" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -2.49089 )
+
+[node name="groundEarth293" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -2.49089 )
+
+[node name="groundEarth343" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 7.50911 )
+
+[node name="groundEarth570" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, 2.00911 )
+
+[node name="groundEarth598" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, 5.00911 )
+
+[node name="groundEarth441" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, -0.990894 )
+
+[node name="groundEarth512" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, 1.00911 )
+
+[node name="groundEarth30" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 7.50911 )
+
+[node name="groundEarth125" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -2.49089 )
+
+[node name="groundEarth217" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -2.49089 )
+
+[node name="groundEarth392" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 7.50911 )
+
+[node name="groundEarth571" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, 2.00911 )
+
+[node name="groundEarth595" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, 4.00911 )
+
+[node name="groundEarth442" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, -0.990894 )
+
+[node name="groundEarth514" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, 1.00911 )
+
+[node name="groundEarth57" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 2.50911 )
+
+[node name="groundEarth166" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -7.49089 )
+
+[node name="groundEarth246" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -7.49089 )
+
+[node name="groundEarth379" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 2.50911 )
+
+[node name="groundEarth437" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, -5.99089 )
+
+[node name="groundEarth492" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, -3.99089 )
+
+[node name="groundEarth97" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 2.50911 )
+
+[node name="groundEarth196" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -7.49089 )
+
+[node name="groundEarth274" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -7.49089 )
+
+[node name="groundEarth320" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 2.50911 )
+
+[node name="groundEarth440" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, -5.99089 )
+
+[node name="groundEarth501" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, -3.99089 )
+
+[node name="groundEarth8" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 6.50911 )
+
+[node name="groundEarth109" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -3.49089 )
+
+[node name="groundEarth300" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -3.49089 )
+
+[node name="groundEarth342" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 6.50911 )
+
+[node name="groundEarth34" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 6.50911 )
+
+[node name="groundEarth119" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -3.49089 )
+
+[node name="groundEarth202" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -3.49089 )
+
+[node name="groundEarth386" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 6.50911 )
+
+[node name="groundEarth439" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, -1.99089 )
+
+[node name="groundEarth499" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, 0.00910568 )
+
+[node name="groundEarth51" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 1.50911 )
+
+[node name="groundEarth161" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -8.49089 )
+
+[node name="groundEarth270" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -8.49089 )
+
+[node name="groundEarth328" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 1.50911 )
+
+[node name="groundEarth436" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, -6.99089 )
+
+[node name="groundEarth508" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, -4.99089 )
+
+[node name="groundEarth94" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 1.50911 )
+
+[node name="groundEarth179" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -8.49089 )
+
+[node name="groundEarth271" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -8.49089 )
+
+[node name="groundEarth325" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 1.50911 )
+
+[node name="groundEarth13" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 6.50911 )
+
+[node name="groundEarth102" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -3.49089 )
+
+[node name="groundEarth296" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -3.49089 )
+
+[node name="groundEarth340" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 6.50911 )
+
+[node name="groundEarth438" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, -1.99089 )
+
+[node name="groundEarth491" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, 0.00910568 )
+
+[node name="groundEarth27" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 6.50911 )
+
+[node name="groundEarth136" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -3.49089 )
+
+[node name="groundEarth234" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -3.49089 )
+
+[node name="groundEarth356" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 6.50911 )
+
+[node name="groundEarth443" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, -1.99089 )
+
+[node name="groundEarth487" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, 0.00910568 )
+
+[node name="groundEarth65" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 1.50911 )
+
+[node name="groundEarth152" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -8.49089 )
+
+[node name="groundEarth242" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -8.49089 )
+
+[node name="groundEarth368" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 1.50911 )
+
+[node name="groundEarth446" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, -6.99089 )
+
+[node name="groundEarth515" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, -4.99089 )
+
+[node name="groundEarth91" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 1.50911 )
+
+[node name="groundEarth190" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -8.49089 )
+
+[node name="groundEarth279" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -8.49089 )
+
+[node name="groundEarth319" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 1.50911 )
+
+[node name="groundEarth444" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, -6.99089 )
+
+[node name="groundEarth488" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, -4.99089 )
+
+[node name="groundEarth9" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 5.50911 )
+
+[node name="groundEarth103" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -4.49089 )
+
+[node name="groundEarth295" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -4.49089 )
+
+[node name="groundEarth339" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 5.50911 )
+
+[node name="groundEarth28" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 5.50911 )
+
+[node name="groundEarth124" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -4.49089 )
+
+[node name="groundEarth205" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -4.49089 )
+
+[node name="groundEarth395" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 5.50911 )
+
+[node name="groundEarth445" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 1, -2.99089 )
+
+[node name="groundEarth494" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 1, -0.990894 )
+
+[node name="groundEarth56" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, 0.509107 )
+
+[node name="groundEarth165" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 0, -9.49089 )
+
+[node name="groundEarth257" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, -9.49089 )
+
+[node name="groundEarth306" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55855, 0, 0.509107 )
+
+[node name="groundEarth96" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, 0.509107 )
+
+[node name="groundEarth195" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44145, 0, -9.49089 )
+
+[node name="groundEarth281" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, -9.49089 )
+
+[node name="groundEarth327" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 0, 0.509107 )
+
+[node name="groundEarth11" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 5.50911 )
+
+[node name="groundEarth116" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -4.49089 )
+
+[node name="groundEarth203" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -4.49089 )
+
+[node name="groundEarth381" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 5.50911 )
+
+[node name="groundEarth448" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 1, -2.99089 )
+
+[node name="groundEarth518" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 1, -0.990894 )
+
+[node name="groundEarth41" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 5.50911 )
+
+[node name="groundEarth170" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -4.49089 )
+
+[node name="groundEarth249" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -4.49089 )
+
+[node name="groundEarth351" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 5.50911 )
+
+[node name="groundEarth447" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 1, -2.99089 )
+
+[node name="groundEarth489" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 1, -0.990894 )
+
+[node name="groundEarth72" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, 0.509107 )
+
+[node name="groundEarth146" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 0, -9.49089 )
+
+[node name="groundEarth233" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, -9.49089 )
+
+[node name="groundEarth355" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55855, 0, 0.509107 )
+
+[node name="groundEarth85" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, 0.509107 )
+
+[node name="groundEarth184" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 0, -9.49089 )
+
+[node name="groundEarth263" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, -9.49089 )
+
+[node name="groundEarth324" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55855, 0, 0.509107 )
+
+[node name="groundEarth10" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 5.50911 )
+
+[node name="groundEarth111" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -4.49089 )
+
+[node name="groundEarth291" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -4.49089 )
+
+[node name="groundEarth318" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 5.50911 )
+
+[node name="groundEarth430" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 1, -2.99089 )
+
+[node name="groundEarth513" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.44145, 1, -0.990894 )
+
+[node name="groundEarth36" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 5.50911 )
+
+[node name="groundEarth135" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -4.49089 )
+
+[node name="groundEarth236" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -4.49089 )
+
+[node name="groundEarth357" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 5.50911 )
+
+[node name="groundEarth426" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 1, -2.99089 )
+
+[node name="groundEarth509" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.44145, 1, -0.990894 )
+
+[node name="groundEarth64" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, 0.509107 )
+
+[node name="groundEarth148" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44145, 0, -9.49089 )
+
+[node name="groundEarth230" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, -9.49089 )
+
+[node name="groundEarth374" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55855, 0, 0.509107 )
+
+[node name="groundEarth87" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, 0.509107 )
+
+[node name="groundEarth187" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.44145, 0, -9.49089 )
+
+[node name="groundEarth277" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, -9.49089 )
+
+[node name="groundEarth329" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55855, 0, 0.509107 )
+
+[node name="groundEarth14" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 6.50911 )
+
+[node name="groundEarth112" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -3.49089 )
+
+[node name="groundEarth292" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -3.49089 )
+
+[node name="groundEarth323" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 6.50911 )
+
+[node name="groundEarth429" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, -1.99089 )
+
+[node name="groundEarth517" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, 0.00910568 )
+
+[node name="groundEarth37" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 6.50911 )
+
+[node name="groundEarth134" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -3.49089 )
+
+[node name="groundEarth235" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -3.49089 )
+
+[node name="groundEarth366" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 6.50911 )
+
+[node name="groundEarth431" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 1, -1.99089 )
+
+[node name="groundEarth482" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, 0.00910568 )
+
+[node name="groundEarth63" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 1.50911 )
+
+[node name="groundEarth143" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -8.49089 )
+
+[node name="groundEarth222" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -8.49089 )
+
+[node name="groundEarth358" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 1.50911 )
+
+[node name="groundEarth427" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 1, -6.99089 )
+
+[node name="groundEarth484" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, -4.99089 )
+
+[node name="groundEarth82" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 1.50911 )
+
+[node name="groundEarth180" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -8.49089 )
+
+[node name="groundEarth251" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -8.49089 )
+
+[node name="groundEarth380" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 1.50911 )
+
+[node name="groundEarth428" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, -6.99089 )
+
+[node name="groundEarth497" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, -4.99089 )
+
+[node name="groundEarth25" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 5.50911 )
+
+[node name="groundEarth132" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -4.49089 )
+
+[node name="groundEarth227" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -4.49089 )
+
+[node name="groundEarth373" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 5.50911 )
+
+[node name="groundEarth425" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, -2.99089 )
+
+[node name="groundEarth496" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, -0.990894 )
+
+[node name="groundEarth46" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 5.50911 )
+
+[node name="groundEarth168" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -4.49089 )
+
+[node name="groundEarth238" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -4.49089 )
+
+[node name="groundEarth359" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 5.50911 )
+
+[node name="groundEarth432" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 1, -2.99089 )
+
+[node name="groundEarth505" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, -0.990894 )
+
+[node name="groundEarth70" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 0.509107 )
+
+[node name="groundEarth145" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -9.49089 )
+
+[node name="groundEarth363" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 0.509107 )
+
+[node name="groundEarth84" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 0.509107 )
+
+[node name="groundEarth181" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -9.49089 )
+
+[node name="groundEarth272" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -9.49089 )
+
+[node name="groundEarth330" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 0.509107 )
+
+[node name="groundEarth24" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 5.50911 )
+
+[node name="groundEarth126" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -4.49089 )
+
+[node name="groundEarth218" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -4.49089 )
+
+[node name="groundEarth393" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 5.50911 )
+
+[node name="groundEarth434" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, -2.99089 )
+
+[node name="groundEarth506" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 1, -0.990894 )
+
+[node name="groundEarth44" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 5.50911 )
+
+[node name="groundEarth169" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -4.49089 )
+
+[node name="groundEarth248" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -4.49089 )
+
+[node name="groundEarth372" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 5.50911 )
+
+[node name="groundEarth433" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, -2.99089 )
+
+[node name="groundEarth498" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 1, -0.990894 )
+
+[node name="groundEarth71" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, 0.509107 )
+
+[node name="groundEarth137" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44145, 0, -9.49089 )
+
+[node name="groundEarth219" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, -9.49089 )
+
+[node name="groundEarth397" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 0, 0.509107 )
+
+[node name="groundEarth76" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, 0.509107 )
+
+[node name="groundEarth154" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44145, 0, -9.49089 )
+
+[node name="groundEarth268" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, -9.49089 )
+
+[node name="groundEarth333" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 0, 0.509107 )
+
+[node name="groundEarth23" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 9.50911 )
+
+[node name="groundEarth127" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -0.490893 )
+
+[node name="groundEarth206" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -0.490893 )
+
+[node name="groundEarth382" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 9.50911 )
+
+[node name="groundEarth569" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, 4.00911 )
+
+[node name="groundEarth594" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, 6.00911 )
+
+[node name="groundEarth435" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, 1.00911 )
+
+[node name="groundEarth511" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, 4.00911 )
+
+[node name="groundEarth45" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 9.50911 )
+
+[node name="groundEarth172" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -0.490893 )
+
+[node name="groundEarth250" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -0.490893 )
+
+[node name="groundEarth346" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 9.50911 )
+
+[node name="groundEarth583" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, 4.00911 )
+
+[node name="groundEarth590" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, 6.00911 )
+
+[node name="groundEarth473" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 1, 1.00911 )
+
+[node name="groundEarth529" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, 4.00911 )
+
+[node name="groundEarth73" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 4.50911 )
+
+[node name="groundEarth151" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -5.49089 )
+
+[node name="groundEarth244" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -5.49089 )
+
+[node name="groundEarth370" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 4.50911 )
+
+[node name="groundEarth474" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 1, -3.99089 )
+
+[node name="groundEarth533" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, -1.99089 )
+
+[node name="groundEarth90" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 4.50911 )
+
+[node name="groundEarth177" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -5.49089 )
+
+[node name="groundEarth259" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -5.49089 )
+
+[node name="groundEarth310" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 4.50911 )
+
+[node name="groundEarth477" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, -3.99089 )
+
+[node name="groundEarth537" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, -1.99089 )
+
+[node name="groundEarth22" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 8.50911 )
+
+[node name="groundEarth101" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -1.49089 )
+
+[node name="groundEarth289" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -1.49089 )
+
+[node name="groundEarth316" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 8.50911 )
+
+[node name="groundEarth582" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, 3.00911 )
+
+[node name="groundEarth607" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, 5.00911 )
+
+[node name="groundEarth472" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, 0.00910568 )
+
+[node name="groundEarth528" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, 2.00911 )
+
+[node name="groundEarth26" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 8.50911 )
+
+[node name="groundEarth128" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -1.49089 )
+
+[node name="groundEarth207" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -1.49089 )
+
+[node name="groundEarth384" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 8.50911 )
+
+[node name="groundEarth584" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, 3.00911 )
+
+[node name="groundEarth608" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, 5.00911 )
+
+[node name="groundEarth475" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 1, 0.00910568 )
+
+[node name="groundEarth534" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, 2.00911 )
+
+[node name="groundEarth58" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 3.50911 )
+
+[node name="groundEarth175" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -6.49089 )
+
+[node name="groundEarth265" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -6.49089 )
+
+[node name="groundEarth332" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 3.50911 )
+
+[node name="groundEarth471" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 1, -4.99089 )
+
+[node name="groundEarth540" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, -2.99089 )
+
+[node name="groundEarth99" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 3.50911 )
+
+[node name="groundEarth197" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -6.49089 )
+
+[node name="groundEarth282" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -6.49089 )
+
+[node name="groundEarth311" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 3.50911 )
+
+[node name="groundEarth478" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, -4.99089 )
+
+[node name="groundEarth538" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, -2.99089 )
+
+[node name="groundEarth21" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 7.50911 )
+
+[node name="groundEarth107" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -2.49089 )
+
+[node name="groundEarth298" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -2.49089 )
+
+[node name="groundEarth337" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 7.50911 )
+
+[node name="groundEarth585" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55855, 1, 2.00911 )
+
+[node name="groundEarth609" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, 3.00911 )
+
+[node name="groundEarth476" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, -0.990894 )
+
+[node name="groundEarth535" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, 1.00911 )
+
+[node name="groundEarth32" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 7.50911 )
+
+[node name="groundEarth129" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -2.49089 )
+
+[node name="groundEarth208" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -2.49089 )
+
+[node name="groundEarth391" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 7.50911 )
+
+[node name="groundEarth586" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55855, 1, 2.00911 )
+
+[node name="groundEarth610" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, 3.00911 )
+
+[node name="groundEarth479" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 1, -0.990894 )
+
+[node name="groundEarth543" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, 1.00911 )
+
+[node name="groundEarth59" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, 2.50911 )
+
+[node name="groundEarth140" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.441455, 0, -7.49089 )
+
+[node name="groundEarth224" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -7.49089 )
+
+[node name="groundEarth377" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, 2.50911 )
+
+[node name="groundEarth481" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 1, -5.99089 )
+
+[node name="groundEarth545" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.558545, 1, -3.99089 )
+
+[node name="groundEarth79" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, 2.50911 )
+
+[node name="groundEarth194" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44145, 0, -7.49089 )
+
+[node name="groundEarth285" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, -7.49089 )
+
+[node name="groundEarth334" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 0, 2.50911 )
+
+[node name="groundEarth480" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55855, 1, -5.99089 )
+
+[node name="groundEarth544" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44145, 1, -3.99089 )
+
+[node name="groundEarth229" parent="20x21" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.55855, 0, -9.49089 )
+
+[node name="Hills" type="Spatial" parent="."]
+editor/display_folded = true
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, -0.114107, 0 )
+
+[node name="ground" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.434181, 0.615192, 9.52573 )
+
+[node name="ground14" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56582, 0.615192, 6.52573 )
+
+[node name="ground13" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.565819, 0.615192, 7.52573 )
+
+[node name="ground12" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56582, 0.615192, 7.52573 )
+
+[node name="ground11" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56582, 0.615192, 7.52573 )
+
+[node name="ground10" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.434181, 0.615192, 8.52573 )
+
+[node name="ground9" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.565819, 0.615192, 8.52573 )
+
+[node name="ground8" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56582, 0.615192, 8.52573 )
+
+[node name="ground7" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56582, 0.615192, 8.52573 )
+
+[node name="ground6" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.43418, 0.615192, 9.52573 )
+
+[node name="ground5" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56582, 0.615192, 9.52573 )
+
+[node name="ground4" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56582, 0.615192, 9.52573 )
+
+[node name="ground3" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.565819, 0.615192, 9.52573 )
+
+[node name="ground2" parent="Hills" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.43418, 0.615192, 9.52573 )
+
+[node name="Hills2" type="Spatial" parent="."]
+editor/display_folded = true
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 0.385893, 2.5 )
+
+[node name="ground" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.434181, 0.615192, 9.52573 )
+
+[node name="ground21" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.43418, 0.615192, 9.52573 )
+
+[node name="ground22" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.43418, 0.615192, 9.52573 )
+
+[node name="ground24" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.43418, 0.615192, 10.5257 )
+
+[node name="ground25" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.43418, 0.615192, 11.5257 )
+
+[node name="ground26" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.43418, 0.615192, 11.5257 )
+
+[node name="ground34" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.43418, 0.615192, 10.5257 )
+
+[node name="ground35" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4342, 0.615192, 10.5257 )
+
+[node name="ground27" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.43418, 0.615192, 11.5257 )
+
+[node name="ground28" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4342, 0.615192, 11.5257 )
+
+[node name="ground29" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.4342, 0.615192, 11.5257 )
+
+[node name="ground30" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.4342, 0.615192, 11.5257 )
+
+[node name="ground31" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.4342, 0.615192, 11.5257 )
+
+[node name="ground32" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.4342, 0.615192, 11.5257 )
+
+[node name="ground33" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.4342, 0.615192, 11.5257 )
+
+[node name="ground37" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4342, 0.615192, 11.5257 )
+
+[node name="ground38" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4342, 0.615192, 12.5257 )
+
+[node name="ground39" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.4342, 0.615192, 12.5257 )
+
+[node name="ground40" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4342, 0.615192, 13.5257 )
+
+[node name="ground41" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4342, 0.615192, 14.5257 )
+
+[node name="ground42" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.4342, 0.615192, 14.5257 )
+
+[node name="ground43" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.4342, 0.615192, 13.5257 )
+
+[node name="ground44" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.4342, 0.615192, 11.5257 )
+
+[node name="ground45" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4342, 0.615192, 15.5257 )
+
+[node name="ground23" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.43418, 0.615192, 10.5257 )
+
+[node name="ground20" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.43418, 0.615192, 8.52573 )
+
+[node name="ground36" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.43418, 0.615192, 8.52573 )
+
+[node name="ground19" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.43418, 0.615192, 9.52573 )
+
+[node name="ground18" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.43418, 0.615192, 9.52573 )
+
+[node name="ground17" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.43418, 0.615192, 9.52573 )
+
+[node name="ground16" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.43418, 0.615192, 9.52573 )
+
+[node name="ground15" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56582, 0.615192, 6.52573 )
+
+[node name="ground14" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56582, 0.615192, 6.52573 )
+
+[node name="ground13" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.565819, 0.615192, 7.52573 )
+
+[node name="ground12" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56582, 0.615192, 7.52573 )
+
+[node name="ground11" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56582, 0.615192, 7.52573 )
+
+[node name="ground10" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.434181, 0.615192, 8.52573 )
+
+[node name="ground9" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.565819, 0.615192, 8.52573 )
+
+[node name="ground8" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56582, 0.615192, 8.52573 )
+
+[node name="ground7" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56582, 0.615192, 8.52573 )
+
+[node name="ground6" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.43418, 0.615192, 9.52573 )
+
+[node name="ground5" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56582, 0.615192, 9.52573 )
+
+[node name="ground4" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56582, 0.615192, 9.52573 )
+
+[node name="ground3" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.565819, 0.615192, 9.52573 )
+
+[node name="ground2" parent="Hills2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.43418, 0.615192, 9.52573 )
+
+[node name="Trees" type="Spatial" parent="."]

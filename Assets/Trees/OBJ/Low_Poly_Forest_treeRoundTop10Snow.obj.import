@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Low_Poly_Forest_treeRoundTop10Snow.obj-9ea4d334cd74ad3e2e1a3cbaf8df0181.mesh"
+
+[deps]
+
+files=[ "res://.import/Low_Poly_Forest_treeRoundTop10Snow.obj-9ea4d334cd74ad3e2e1a3cbaf8df0181.mesh" ]
+
+source_file="res://Assets/Trees/OBJ/Low_Poly_Forest_treeRoundTop10Snow.obj"
+dest_files=[ "res://.import/Low_Poly_Forest_treeRoundTop10Snow.obj-9ea4d334cd74ad3e2e1a3cbaf8df0181.mesh", "res://.import/Low_Poly_Forest_treeRoundTop10Snow.obj-9ea4d334cd74ad3e2e1a3cbaf8df0181.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
