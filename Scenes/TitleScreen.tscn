@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://TitleScreen.gd" type="Script" id=1]
+[ext_resource path="res://Assets/TitleScreen.jpg" type="Texture" id=2]
+[ext_resource path="res://Assets/Oswald/Oswald-Demi-BoldItalic.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Assets/Oswald/Oswald-HeavyItalic.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+font_data = ExtResource( 4 )
+
+[node name="TitleScreen" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -26.0283
+margin_right = 1044.97
+margin_bottom = 716.0
+texture = ExtResource( 2 )
+expand = true
+stretch_mode = 5
+
+[node name="Button" type="Button" parent="."]
+margin_left = 383.166
+margin_top = 467.156
+margin_right = 613.166
+margin_bottom = 573.156
+custom_fonts/font = SubResource( 1 )
+text = "Play"
+
+[node name="Title" type="Label" parent="."]
+margin_left = 401.292
+margin_top = 124.673
+margin_right = 589.292
+margin_bottom = 185.673
+rect_rotation = -0.0970706
+custom_fonts/font = SubResource( 2 )
+text = "Acorn Forest"
+align = 1
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed3"]
